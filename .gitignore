@@ -1,0 +1,7 @@
+mysql_config.php
+.env
+*.log
+*.bak*
+*cache*
+.claude/
+__pycache__/
