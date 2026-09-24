@@ -32,3 +32,10 @@ This writes to the production database. Use a test host where you can.
 - MySQL database `admin_gebarenoverleg`, table `matched_transcriptions`.
 - Caller: the DRS QR scanner, and `tools/qr_backfill.py` and `tools/replay_qr_results.py` in [signlab_drs-pipeline](https://github.com/Amsterdam-Humanities-Labs/signlab_drs-pipeline).
 - [signlab_pythonCron](https://github.com/Amsterdam-Humanities-Labs/signlab_pythonCron) runs `/web/qr/qrConvert.py` hourly (service `qRconvert`). That script is not in this repo.
+
+## License and citation
+
+Apache License 2.0, copyright University of Amsterdam: see [LICENSE](LICENSE) and
+[NOTICE](NOTICE). You may use it, also commercially, as long as you credit
+Gomer Otterspeer / University of Amsterdam as the source. To cite it, use
+[CITATION.cff](CITATION.cff) (the *Cite this repository* button on GitHub) or the DOI [10.21942/uva.33980368](https://doi.org/10.21942/uva.33980368).
